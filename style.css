@@ -9,5 +9,25 @@ body {
 }
 
 a:VISITED, a {
-	color: #484;
+	color: #888;
+}
+
+ul#navlist {
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 5em;
+	border-bottom: solid;
+	border-width: 1px;
+}
+
+ul#navlist li {
+	display: inline-block;
+	background-color: #eee;
+	padding: 0.5em;
+	border-style: none;
+	border-width: 1px;
+	text-align: center;
+	min-width: 7em;
+	padding: 0.5em 1em 0.5em 1em;
+	height: 1em;
 }
