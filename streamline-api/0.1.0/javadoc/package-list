@@ -1,0 +1,8 @@
+org.daisy.dotify.api.config
+org.daisy.dotify.api.identity
+org.daisy.dotify.api.tasks
+org.daisy.dotify.api.validity
+org.daisy.dotify.consumer.config
+org.daisy.dotify.consumer.identity
+org.daisy.dotify.consumer.tasks
+org.daisy.dotify.consumer.validity
