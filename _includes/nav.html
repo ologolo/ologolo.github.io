@@ -1,9 +1,9 @@
 <ul class="navigation">
   {% for item in include.nav %}
-    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-
-    {% if item.subnav %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a>
+	    {% if item.subnav %}
       {% include nav.html nav=item.subnav %}
     {% endif %}
+	</li>
   {% endfor %}
 </ul>
