@@ -10,10 +10,9 @@
 </head>
 <body>
 	<img src="images/ologolo-banner.png"/>
-	<p><ul id="navlist" class="navigation">
-		<li><a href="index.html">Home</a></li>
-		<li><a href="faq.html">FAQ</a></li>
-	</ul></p>
+	<div id="navlist">
+		{% include nav.html nav=site.data.menu.nav %}
+	</div>
 	<p></p>
 
 	<!-- Page Content -->

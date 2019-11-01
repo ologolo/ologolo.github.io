@@ -12,7 +12,7 @@ a:VISITED, a {
 	color: #888;
 }
 
-ul#navlist {
+div#navlist ul {
 	padding: 0;
 	list-style-type: none;
 	margin-bottom: 5em;
@@ -20,7 +20,7 @@ ul#navlist {
 	border-width: 1px;
 }
 
-ul#navlist li {
+div#navlist li {
 	display: inline-block;
 	background-color: #eee;
 	padding: 0.5em;
